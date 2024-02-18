@@ -1,0 +1,4 @@
+input/
+docker/
+POC_Speech_Recognition/
+*.ipnyb

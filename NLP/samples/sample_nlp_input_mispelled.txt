@@ -1,0 +1,7 @@
+1,je voudrais aller de toulouse à Bordau
+2,Comment me rendre à Port-boulet depuis la gare de Tourrs ?
+3,Je veux aller voir mon ami Albert à Toures en partant de Baurdeaux
+4,Il y a-t-il des trains de Nanthes à Montégu
+5,Une phrase sans origine ni destination
+Si pas de numéro de séquence, on considère que c'est zéro
+7, is there any train going from Parrie to Marceille ?

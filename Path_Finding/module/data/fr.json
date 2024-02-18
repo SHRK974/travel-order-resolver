@@ -1,0 +1,151 @@
+{
+    "graph": [
+        {
+            "from_city": "Paris",
+            "to_cities": [
+                {
+                    "name": "Amiens",
+                    "weight": 130
+                },
+                {
+                    "name": "Angers",
+                    "weight": 303
+                },
+                {
+                    "name": "Calais",
+                    "weight": 274
+                },
+                {
+                    "name": "Cherbourg",
+                    "weight": 340
+                },
+                {
+                    "name": "Clermont-Ferrand",
+                    "weight": 425
+                },
+                {
+                    "name": "Dijon",
+                    "weight": 323
+                },
+                {
+                    "name": "Le Havre",
+                    "weight": 211
+                },
+                {
+                    "name": "Lille",
+                    "weight": 223
+                },
+                {
+                    "name": "Nancy",
+                    "weight": 308
+                },
+                {
+                    "name": "Reims",
+                    "weight": 155
+                },
+                {
+                    "name": "Rennes",
+                    "weight": 360
+                },
+                {
+                    "name": "Rouen",
+                    "weight": 123
+                },
+                {
+                    "name": "Tours",
+                    "weight": 234
+                },
+                {
+                    "name": "Vichy",
+                    "weight": 343
+                }
+            ]
+        },
+        {
+            "from_city": "Amiens",
+            "to_cities": [
+                {
+                    "name": "Angers",
+                    "weight": 369
+                },
+                {
+                    "name": "Calais",
+                    "weight": 159
+                },
+                {
+                    "name": "Cherbourg",
+                    "weight": 366
+                },
+                {
+                    "name": "Le Havre",
+                    "weight": 180
+                },
+                {
+                    "name": "Lille",
+                    "weight": 113
+                },
+                {
+                    "name": "Paris",
+                    "weight": 130
+                },
+                {
+                    "name": "Reims",
+                    "weight": 167
+                },
+                {
+                    "name": "Rouen",
+                    "weight": 117
+                }
+            ]
+        },
+        {
+            "from_city": "Angers",
+            "to_cities": [
+                {
+                    "name": "Amiens",
+                    "weight": 369
+                },
+                {
+                    "name": "Bordeaux",
+                    "weight": 335
+                },
+                {
+                    "name": "Cherbourg",
+                    "weight": 290
+                },
+                {
+                    "name": "Clermont-Ferrand",
+                    "weight": 402
+                },
+                {
+                    "name": "Le Havre",
+                    "weight": 297
+                },
+                {
+                    "name": "Nantes",
+                    "weight": 90
+                },
+                {
+                    "name": "Paris",
+                    "weight": 303
+                },
+                {
+                    "name": "Rennes",
+                    "weight": 126
+                },
+                {
+                    "name": "Rouen",
+                    "weight": 282
+                },
+                {
+                    "name": "Tours",
+                    "weight": 106
+                },
+                {
+                    "name": "Vichy",
+                    "weight": 399
+                }
+            ]
+        }
+    ]
+}

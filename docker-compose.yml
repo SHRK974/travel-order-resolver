@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  travel-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: travel-app
+    volumes:
+      - ./input:/app/input
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "9000:3000"
+    volumes:
+      - ./docker/grafana/grafana.ini:/etc/grafana/grafana.ini
+      - ./docker/grafana/provisioning/datasources:/etc/grafana/provisioning/datasources
+      - ./docker/grafana/dashboards:/etc/grafana/provisioning/dashboards
+    depends_on:
+      - prometheus
+
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./docker/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    depends_on:
+      - prometheus-pushgateway
+
+  prometheus-pushgateway:
+    image: prom/pushgateway:latest
+    ports:
+      - "9091:9091"
+
+volumes:
+  prometheus:

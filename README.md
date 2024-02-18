@@ -8,6 +8,8 @@
 
 ## Description
 
+**This is a school group project for Epitech.**
+
 Build a program that processes **at least** text commands to issue an appropriate itinerary.
 
 Your software will receive trip orders as text *(for instance an email)*, and potentially from voice *(for instance some phone recording)*, and will output at least one appropriate
